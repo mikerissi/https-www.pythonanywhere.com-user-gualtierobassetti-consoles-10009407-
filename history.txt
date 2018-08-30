@@ -1,0 +1,40 @@
+    1  cd mysite
+    2  git status
+    3  git add .
+    4  git commit -m "<file> -- templates/main_page.html
+    5  git add .
+    6  git commit -m "<file> -- templates/main_page.html"
+    7  mkvirtualenv flask-tutorial --python=python3.6
+    8  pip install flask flask-login flask-sqlalchemy mysql-connector-python
+    9  pip freeze > requirements.txt
+   10  git status
+   11  git add .
+   12  git commit -m "/.cache/pip/wheels"
+   13  pip install Flask-Migrate
+   14  export FLASK_APP=flask_app.py
+   15  flask db init
+   16  flask db migrate
+   17  flask db stamp head
+   18  pip freeze > requirements.txt
+   19  git status
+   20  git add .
+   21  git commit -m "[alembic.runtime"
+   22  flask db migrate
+   23  flask db upgrade
+   24  git status
+   25  git add .
+   26  git commit -m "93abb1d37034_.py"
+   27  flask db migrate
+   28  flask db upgrade
+   29  flask shell
+   30  flask db migrate
+   31  flask db upgrade
+   32  flask shell
+   33  echo "# https-www.pythonanywhere.com-user-gualtierobassetti-consoles-10009407-" >> README.md
+   34  git init
+   35  git add README.md
+   36  git commit -m "first commit"
+   37  git remote add origin https://github.com/mikerissi/https-www.pythonanywhere.com-user-gualtierobassetti-consoles-10009407-.git
+   38  git push -u origin master
+   39  history
+   40  history > history.txt
